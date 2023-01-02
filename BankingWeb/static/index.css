@@ -1,0 +1,55 @@
+body {
+  background: rgba(0, 0, 120, 0.2);
+}
+div {
+  padding-right: 500px;
+  
+}
+#loginbutton {  
+  margin-left: 200px;
+  margin-top: 1px;
+  width: 120px;
+  height: 45px;    
+  font-size:14px;
+  font-weight:700;
+  color: black;   
+}
+
+
+
+
+html {
+  font-family: serif;
+}
+body {
+  font-family: serif;
+}
+pre,
+code,
+kbd,
+samp {
+  font-family: monospace;
+}
+
+input,
+button,
+select,
+optgroup,
+textarea {
+  font-family: inherit;
+}
+
+.tooltip {
+  font-family: serif;
+}
+
+.popover {
+  font-family: serif;
+}
+
+.text-monospace {
+  font-family: monospace;
+}
+
+
+

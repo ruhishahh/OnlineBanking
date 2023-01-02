@@ -1,0 +1,31 @@
+{%extends "index.html" %} {% block title%} Sign in {%endblock%} {% block
+content%}
+
+<form action="#" method="POST">
+  <br />
+  <h1 align="center">Login</h1>
+  <div class="form-group">
+    <label for="fname">Username:</label>
+    <input
+      type="text"
+      class="form-control"
+      id="fname"
+      name="fname"
+      aria-placeholder="Enter Username"
+    />
+  </div>
+  <div class="form-group">
+    <label for="password1">Password:</label>
+    <input
+      type="password"
+      class="form-control"
+      id="password"
+      name="password"
+      aria-placeholder="Enter Password"
+    />
+  </div>
+  <br />
+  <button id = "loginbutton" type="submit" class="btn btn-outline-primary">LOGIN</button>
+</form>
+
+{%endblock%}

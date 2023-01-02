@@ -1,0 +1,18 @@
+{%extends "index.html" %} {% block title%} Start Account {%endblock%} {% block
+  content%}
+  <h1>Withdraw!</h1>
+  <h1>{{ "Greetings " + username }}</h1>
+  
+  <form action="#" method="POST">
+    <div class="form-group">
+      <label for="transfer">Withdrawal:</label>
+      <input type="number" class="form-control" id="transfer" name="transfer" />
+    </div>
+  
+    <button type="submit" class="btn btn-outline-primary">
+      Confirm Withdrawal
+    </button>
+  
+    {%endblock%}
+  </form>
+  

@@ -1,0 +1,30 @@
+{%extends "index.html" %} {% block title%} View All {%endblock%} {% block
+content%}
+
+<h1 align="center">Transactions</h1>
+
+<body>
+  <table border='1'>
+    <thead>
+     <tr>
+      <th>Date</th>
+      <th>Transfer</th>
+      <th>New Total</th>
+     </tr>
+    </thead>
+    <tbody>
+       <tr>
+          {% for transaction in user.transaction %}
+                <td>{{transaction.date}}</td>
+                <td>{{transaction.transfer}}</td>
+                <td>{{transaction.total}}</td>
+          {% endfor %}
+       </tr>
+    </tbody>
+</body>
+{%endblock%}
+
+
+
+
+
